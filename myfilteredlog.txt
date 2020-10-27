@@ -1,10 +1,411 @@
-2020-10-24T18:05:18.191827+00:00 app[web.1]: 10.33.232.252 - - [24/Oct/2020 18:05:18] "[37mGET /static/garden.jpg HTTP/1.1[0m" 200 -
-2020-10-24T18:05:18.204121+00:00 heroku[router]: at=info method=GET path="/static/garden.jpg" host=shielded-retreat-96911.herokuapp.com request_id=867464cf-596b-4934-9921-95168f281a1c fwd="192.91.235.243" dyno=web.1 connect=2ms service=17ms status=200 bytes=132444 protocol=https
-2020-10-24T18:05:18.217431+00:00 heroku[router]: at=info method=GET path="/static/geoprickly.jpg" host=shielded-retreat-96911.herokuapp.com request_id=c63d77a4-ee5c-4112-9d11-6a7e3bea189c fwd="192.91.235.243" dyno=web.1 connect=1ms service=49ms status=200 bytes=618300 protocol=https
-2020-10-24T18:05:18.310785+00:00 app[web.1]: AB_TESTING: B 1603562718290 0 0 yxvapzqg
-2020-10-24T18:05:18.311715+00:00 app[web.1]: 10.33.232.252 - - [24/Oct/2020 18:05:18] "[37mPOST /data HTTP/1.1[0m" 200 -
-2020-10-24T18:05:18.311977+00:00 heroku[router]: at=info method=POST path="/data" host=shielded-retreat-96911.herokuapp.com request_id=83b018ec-ac81-40fe-acfa-bdaeaef9848d fwd="192.91.235.243" dyno=web.1 connect=1ms service=5ms status=200 bytes=155 protocol=https
-2020-10-24T18:05:18.987974+00:00 app[web.1]: 10.109.140.73 - - [24/Oct/2020 18:05:18] "[37mGET /static/garden-combo.jpg HTTP/1.1[0m" 200 -
-2020-10-24T18:05:18.997254+00:00 heroku[router]: at=info method=GET path="/static/garden-combo.jpg" host=shielded-retreat-96911.herokuapp.com request_id=19ebce5d-655e-4b49-b099-3177b083b432 fwd="192.91.235.243" dyno=web.1 connect=1ms service=12ms status=200 bytes=160216 protocol=https
-2020-10-24T18:05:19.737196+00:00 app[web.1]: 10.109.140.73 - - [24/Oct/2020 18:05:19] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
-2020-10-24T18:05:19.738099+00:00 heroku[router]: at=info method=GET path="/favicon.ico" host=shielded-retreat-96911.herokuapp.com request_id=93cb3d23-7cdc-492b-880f-e81cf1601424 fwd="192.91.235.243" dyno=web.1 connect=1ms service=3ms status=404 bytes=394 protocol=https
+2020-10-27T01:23:29.697228+00:00 heroku[router]: at=info method=GET path="/static/main.css" host=shielded-retreat-96911.herokuapp.com request_id=dee9a5c0-1a40-458f-b31b-ab697d22a7eb fwd="156.146.59.10" dyno=web.1 connect=1ms service=23ms status=200 bytes=1411 protocol=https
+2020-10-27T01:23:29.806211+00:00 app[web.1]: AB_TESTING: C 1603761810513 0 0 ndopk
+2020-10-27T01:23:29.807205+00:00 app[web.1]: 10.5.212.115 - - [27/Oct/2020 01:23:29] "[37mPOST /data HTTP/1.1[0m" 200 -
+2020-10-27T01:23:29.809518+00:00 heroku[router]: at=info method=POST path="/data" host=shielded-retreat-96911.herokuapp.com request_id=eac4d42d-dd2a-40b6-8427-5a9931cfd614 fwd="156.146.59.10" dyno=web.1 connect=0ms service=6ms status=200 bytes=155 protocol=https
+2020-10-27T01:23:29.854611+00:00 app[web.1]: 10.5.212.115 - - [27/Oct/2020 01:23:29] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2020-10-27T01:23:29.856897+00:00 heroku[router]: at=info method=GET path="/favicon.ico" host=shielded-retreat-96911.herokuapp.com request_id=4c9c4b62-a993-417b-8c92-fb842818c73b fwd="156.146.59.10" dyno=web.1 connect=0ms service=13ms status=404 bytes=394 protocol=https
+2020-10-27T01:59:22.353546+00:00 heroku[web.1]: Idling
+2020-10-27T01:59:22.355748+00:00 heroku[web.1]: State changed from up to down
+2020-10-27T01:59:23.782245+00:00 heroku[web.1]: Stopping all processes with SIGTERM
+2020-10-27T01:59:24.129774+00:00 heroku[web.1]: Process exited with status 0
+2020-10-27T20:57:35.429928+00:00 heroku[web.1]: Unidling
+2020-10-27T20:57:35.441394+00:00 heroku[web.1]: State changed from down to starting
+2020-10-27T20:57:49.315652+00:00 heroku[web.1]: Starting process with command `python app.py`
+2020-10-27T20:57:52.981796+00:00 app[web.1]: version pageLoadTime clickTime clickHTMLElementId UniqueSession
+2020-10-27T20:57:52.996901+00:00 app[web.1]:  * Serving Flask app "app" (lazy loading)
+2020-10-27T20:57:52.996907+00:00 app[web.1]:  * Environment: production
+2020-10-27T20:57:52.996968+00:00 app[web.1]:    WARNING: This is a development server. Do not use it in a production deployment.
+2020-10-27T20:57:52.997044+00:00 app[web.1]:    Use a production WSGI server instead.
+2020-10-27T20:57:52.997136+00:00 app[web.1]:  * Debug mode: on
+2020-10-27T20:57:53.023342+00:00 app[web.1]:  * Running on http://0.0.0.0:55070/ (Press CTRL+C to quit)
+2020-10-27T20:57:53.026587+00:00 app[web.1]:  * Restarting with stat
+2020-10-27T20:57:53.528918+00:00 heroku[web.1]: State changed from starting to up
+2020-10-27T20:57:53.476772+00:00 app[web.1]: version pageLoadTime clickTime clickHTMLElementId UniqueSession
+2020-10-27T20:57:53.537937+00:00 app[web.1]:  * Debugger is active!
+2020-10-27T20:57:53.539393+00:00 app[web.1]:  * Debugger PIN: 713-014-562
+2020-10-27T20:57:55.517788+00:00 heroku[router]: at=info method=GET path="/" host=shielded-retreat-96911.herokuapp.com request_id=c10f55e6-5c37-4d22-80a3-cb8cdbc2d84a fwd="192.91.235.243" dyno=web.1 connect=0ms service=15ms status=200 bytes=8883 protocol=https
+2020-10-27T20:57:55.516523+00:00 app[web.1]: 10.182.117.232 - - [27/Oct/2020 20:57:55] "[37mGET / HTTP/1.1[0m" 200 -
+2020-10-27T20:57:55.745581+00:00 app[web.1]: 10.182.117.232 - - [27/Oct/2020 20:57:55] "[37mGET /static/main.css HTTP/1.1[0m" 200 -
+2020-10-27T20:57:55.844085+00:00 heroku[router]: at=info method=GET path="/static/garden-combo.jpg" host=shielded-retreat-96911.herokuapp.com request_id=e8cea5c8-e19d-40fa-a1ad-f402b0251e89 fwd="192.91.235.243" dyno=web.1 connect=0ms service=19ms status=200 bytes=160216 protocol=https
+2020-10-27T20:57:55.846476+00:00 heroku[router]: at=info method=GET path="/static/geoprickly.jpg" host=shielded-retreat-96911.herokuapp.com request_id=b45059b8-8f83-4aae-a030-eca672e88475 fwd="192.91.235.243" dyno=web.1 connect=1ms service=33ms status=200 bytes=618300 protocol=https
+2020-10-27T20:57:55.746827+00:00 heroku[router]: at=info method=GET path="/static/main.css" host=shielded-retreat-96911.herokuapp.com request_id=1d9c8a98-2fca-4b52-b591-03d0931cdaad fwd="192.91.235.243" dyno=web.1 connect=4ms service=3ms status=200 bytes=1411 protocol=https
+2020-10-27T20:57:55.783083+00:00 app[web.1]: 10.182.117.232 - - [27/Oct/2020 20:57:55] "[37mGET /static/coppercombo.png HTTP/1.1[0m" 200 -
+2020-10-27T20:57:55.815575+00:00 app[web.1]: 10.30.108.123 - - [27/Oct/2020 20:57:55] "[37mGET /static/geoprickly.jpg HTTP/1.1[0m" 200 -
+2020-10-27T20:57:55.821073+00:00 app[web.1]: 10.31.87.172 - - [27/Oct/2020 20:57:55] "[37mGET /static/garden.jpg HTTP/1.1[0m" 200 -
+2020-10-27T20:57:55.829413+00:00 app[web.1]: 10.171.23.45 - - [27/Oct/2020 20:57:55] "[37mGET /static/garden-combo.jpg HTTP/1.1[0m" 200 -
+2020-10-27T20:57:55.833228+00:00 heroku[router]: at=info method=GET path="/static/garden.jpg" host=shielded-retreat-96911.herokuapp.com request_id=1c8c9efe-e43b-4627-bebe-9911bdf218e8 fwd="192.91.235.243" dyno=web.1 connect=1ms service=15ms status=200 bytes=132444 protocol=https
+2020-10-27T20:57:55.793680+00:00 heroku[router]: at=info method=GET path="/static/coppercombo.png" host=shielded-retreat-96911.herokuapp.com request_id=eb07391e-64de-4875-8714-a672cea5a95f fwd="192.91.235.243" dyno=web.1 connect=0ms service=12ms status=200 bytes=243856 protocol=https
+2020-10-27T20:57:56.134561+00:00 heroku[router]: at=info method=POST path="/data" host=shielded-retreat-96911.herokuapp.com request_id=9138e111-c548-415b-aff5-a90e4f6f344f fwd="192.91.235.243" dyno=web.1 connect=0ms service=2ms status=200 bytes=155 protocol=https
+2020-10-27T20:57:56.133945+00:00 app[web.1]: AB_TESTING: A 1603832276129 0 0 yxvapzqg
+2020-10-27T20:57:56.134578+00:00 app[web.1]: 10.171.23.45 - - [27/Oct/2020 20:57:56] "[37mPOST /data HTTP/1.1[0m" 200 -
+2020-10-27T20:57:59.114661+00:00 heroku[router]: at=info method=POST path="/data" host=shielded-retreat-96911.herokuapp.com request_id=57818dda-e928-42e0-b3d9-fb91a9e24c85 fwd="192.91.235.243" dyno=web.1 connect=1ms service=3ms status=200 bytes=155 protocol=https
+2020-10-27T20:57:59.112854+00:00 app[web.1]: AB_TESTING: A 1603832276129 1603832279119 mp1 yxvapzqg
+2020-10-27T20:57:59.113420+00:00 app[web.1]: 10.30.108.123 - - [27/Oct/2020 20:57:59] "[37mPOST /data HTTP/1.1[0m" 200 -
+2020-10-27T20:58:00.259959+00:00 app[web.1]: AB_TESTING: A 1603832276129 1603832280262 mp2 yxvapzqg
+2020-10-27T20:58:00.260628+00:00 app[web.1]: 10.30.108.123 - - [27/Oct/2020 20:58:00] "[37mPOST /data HTTP/1.1[0m" 200 -
+2020-10-27T20:58:00.262091+00:00 heroku[router]: at=info method=POST path="/data" host=shielded-retreat-96911.herokuapp.com request_id=43c2e016-8577-4569-8e86-17cbc3f7351a fwd="192.91.235.243" dyno=web.1 connect=1ms service=3ms status=200 bytes=155 protocol=https
+2020-10-27T20:58:02.467900+00:00 app[web.1]: 10.30.108.123 - - [27/Oct/2020 20:58:02] "[37mGET /checkout?version=A&mp1=1&mp2=1&mp3=0&mp4=0 HTTP/1.1[0m" 200 -
+2020-10-27T20:58:02.666639+00:00 app[web.1]: AB_TESTING: C 1603832282598 0 0 yxvapzqg
+2020-10-27T20:58:02.667646+00:00 app[web.1]: 10.30.108.123 - - [27/Oct/2020 20:58:02] "[37mPOST /data HTTP/1.1[0m" 200 -
+2020-10-27T20:58:02.470858+00:00 heroku[router]: at=info method=GET path="/checkout?version=A&mp1=1&mp2=1&mp3=0&mp4=0" host=shielded-retreat-96911.herokuapp.com request_id=943a4f59-5f3a-4770-95af-64ea6a682311 fwd="192.91.235.243" dyno=web.1 connect=1ms service=6ms status=200 bytes=5236 protocol=https
+2020-10-27T20:58:02.669055+00:00 heroku[router]: at=info method=POST path="/data" host=shielded-retreat-96911.herokuapp.com request_id=db77ea64-2f32-464e-b89b-22d7c71fefeb fwd="192.91.235.243" dyno=web.1 connect=3ms service=6ms status=200 bytes=155 protocol=https
+2020-10-27T20:58:04.353798+00:00 app[web.1]: 10.30.108.123 - - [27/Oct/2020 20:58:04] "[37mGET /?version=A&mp1=1&mp2=1&mp3=0&mp4=0 HTTP/1.1[0m" 200 -
+2020-10-27T20:58:04.560384+00:00 app[web.1]: AB_TESTING: A 1603832284471 0 0 yxvapzqg
+2020-10-27T20:58:04.561281+00:00 app[web.1]: 10.30.108.123 - - [27/Oct/2020 20:58:04] "[37mPOST /data HTTP/1.1[0m" 200 -
+2020-10-27T20:58:04.359033+00:00 heroku[router]: at=info method=GET path="/?version=A&mp1=1&mp2=1&mp3=0&mp4=0" host=shielded-retreat-96911.herokuapp.com request_id=f6c52b8f-fd71-4a0a-95de-6eccb59201c9 fwd="192.91.235.243" dyno=web.1 connect=1ms service=7ms status=200 bytes=8883 protocol=https
+2020-10-27T20:58:04.563666+00:00 heroku[router]: at=info method=POST path="/data" host=shielded-retreat-96911.herokuapp.com request_id=96b04750-ac42-4723-b94d-433c5aa16357 fwd="192.91.235.243" dyno=web.1 connect=1ms service=5ms status=200 bytes=155 protocol=https
+2020-10-27T20:58:06.311277+00:00 app[web.1]: 10.30.108.123 - - [27/Oct/2020 20:58:06] "[37mGET /?version=A&mp1=1&mp2=1&mp3=0&mp4=0 HTTP/1.1[0m" 200 -
+2020-10-27T20:58:06.465228+00:00 app[web.1]: AB_TESTING: A 1603832286440 0 0 yxvapzqg
+2020-10-27T20:58:06.466035+00:00 app[web.1]: 10.30.108.123 - - [27/Oct/2020 20:58:06] "[37mPOST /data HTTP/1.1[0m" 200 -
+2020-10-27T20:58:06.316508+00:00 heroku[router]: at=info method=GET path="/?version=A&mp1=1&mp2=1&mp3=0&mp4=0" host=shielded-retreat-96911.herokuapp.com request_id=22543d4b-6ea6-4f25-8336-e427a8c9d972 fwd="192.91.235.243" dyno=web.1 connect=1ms service=7ms status=200 bytes=8883 protocol=https
+2020-10-27T20:58:06.467176+00:00 heroku[router]: at=info method=POST path="/data" host=shielded-retreat-96911.herokuapp.com request_id=f37268aa-79f3-4e46-8148-fb13bd24a98e fwd="192.91.235.243" dyno=web.1 connect=1ms service=4ms status=200 bytes=155 protocol=https
+2020-10-27T20:58:07.579754+00:00 heroku[router]: at=info method=GET path="/?version=A&mp1=1&mp2=1&mp3=0&mp4=0" host=shielded-retreat-96911.herokuapp.com request_id=3e4744a0-0341-4c5b-9a71-052b2d30ae69 fwd="192.91.235.243" dyno=web.1 connect=1ms service=4ms status=200 bytes=8883 protocol=https
+2020-10-27T20:58:07.578165+00:00 app[web.1]: 10.30.108.123 - - [27/Oct/2020 20:58:07] "[37mGET /?version=A&mp1=1&mp2=1&mp3=0&mp4=0 HTTP/1.1[0m" 200 -
+2020-10-27T20:58:07.716277+00:00 app[web.1]: AB_TESTING: A 1603832287688 0 0 yxvapzqg
+2020-10-27T20:58:07.717374+00:00 app[web.1]: 10.30.108.123 - - [27/Oct/2020 20:58:07] "[37mPOST /data HTTP/1.1[0m" 200 -
+2020-10-27T20:58:07.719186+00:00 heroku[router]: at=info method=POST path="/data" host=shielded-retreat-96911.herokuapp.com request_id=bdb74a53-dd75-40e1-9624-874f8d7fa439 fwd="192.91.235.243" dyno=web.1 connect=1ms service=5ms status=200 bytes=155 protocol=https
+2020-10-27T20:58:08.813456+00:00 heroku[router]: at=info method=GET path="/?version=A&mp1=1&mp2=1&mp3=0&mp4=0" host=shielded-retreat-96911.herokuapp.com request_id=225fab84-c9d4-4253-a98d-f3c4ec534f1f fwd="192.91.235.243" dyno=web.1 connect=1ms service=10ms status=200 bytes=8883 protocol=https
+2020-10-27T20:58:08.806189+00:00 app[web.1]: 10.30.108.123 - - [27/Oct/2020 20:58:08] "[37mGET /?version=A&mp1=1&mp2=1&mp3=0&mp4=0 HTTP/1.1[0m" 200 -
+2020-10-27T20:58:08.976106+00:00 app[web.1]: AB_TESTING: A 1603832288973 0 0 yxvapzqg
+2020-10-27T20:58:08.976968+00:00 app[web.1]: 10.30.108.123 - - [27/Oct/2020 20:58:08] "[37mPOST /data HTTP/1.1[0m" 200 -
+2020-10-27T20:58:08.978363+00:00 heroku[router]: at=info method=POST path="/data" host=shielded-retreat-96911.herokuapp.com request_id=71dd66e0-4543-4ed6-b60d-fc9eb1f915ca fwd="192.91.235.243" dyno=web.1 connect=1ms service=4ms status=200 bytes=155 protocol=https
+2020-10-27T20:58:09.881770+00:00 app[web.1]: 10.30.108.123 - - [27/Oct/2020 20:58:09] "[37mGET /?version=A&mp1=1&mp2=1&mp3=0&mp4=0 HTTP/1.1[0m" 200 -
+2020-10-27T20:58:10.028978+00:00 app[web.1]: AB_TESTING: A 1603832289977 0 0 yxvapzqg
+2020-10-27T20:58:10.029825+00:00 app[web.1]: 10.30.108.123 - - [27/Oct/2020 20:58:10] "[37mPOST /data HTTP/1.1[0m" 200 -
+2020-10-27T20:58:09.883504+00:00 heroku[router]: at=info method=GET path="/?version=A&mp1=1&mp2=1&mp3=0&mp4=0" host=shielded-retreat-96911.herokuapp.com request_id=419f3e31-59f8-4a8b-839c-cd0fe467a5a0 fwd="192.91.235.243" dyno=web.1 connect=1ms service=4ms status=200 bytes=8883 protocol=https
+2020-10-27T20:58:10.031128+00:00 heroku[router]: at=info method=POST path="/data" host=shielded-retreat-96911.herokuapp.com request_id=54fcbc2a-a169-4f97-9718-4ac63b7b8ff0 fwd="192.91.235.243" dyno=web.1 connect=1ms service=5ms status=200 bytes=155 protocol=https
+2020-10-27T20:58:11.012597+00:00 heroku[router]: at=info method=GET path="/?version=A&mp1=1&mp2=1&mp3=0&mp4=0" host=shielded-retreat-96911.herokuapp.com request_id=6f5576c6-68fe-4078-ade0-9b411c92fb47 fwd="192.91.235.243" dyno=web.1 connect=1ms service=3ms status=200 bytes=8883 protocol=https
+2020-10-27T20:58:11.011200+00:00 app[web.1]: 10.30.108.123 - - [27/Oct/2020 20:58:11] "[37mGET /?version=A&mp1=1&mp2=1&mp3=0&mp4=0 HTTP/1.1[0m" 200 -
+2020-10-27T20:58:11.227916+00:00 app[web.1]: AB_TESTING: A 1603832291232 0 0 yxvapzqg
+2020-10-27T20:58:11.228747+00:00 app[web.1]: 10.30.108.123 - - [27/Oct/2020 20:58:11] "[37mPOST /data HTTP/1.1[0m" 200 -
+2020-10-27T20:58:11.230034+00:00 heroku[router]: at=info method=POST path="/data" host=shielded-retreat-96911.herokuapp.com request_id=2ddcaf15-03a0-457f-a920-b54ea1224729 fwd="192.91.235.243" dyno=web.1 connect=0ms service=4ms status=200 bytes=155 protocol=https
+2020-10-27T20:58:13.860887+00:00 heroku[router]: at=info method=GET path="/?version=A&mp1=1&mp2=1&mp3=0&mp4=0" host=shielded-retreat-96911.herokuapp.com request_id=304676c5-2921-40c9-bfe4-f305f5233e43 fwd="192.91.235.243" dyno=web.1 connect=1ms service=6ms status=200 bytes=8883 protocol=https
+2020-10-27T20:58:13.856685+00:00 app[web.1]: 10.30.108.123 - - [27/Oct/2020 20:58:13] "[37mGET /?version=A&mp1=1&mp2=1&mp3=0&mp4=0 HTTP/1.1[0m" 200 -
+2020-10-27T20:58:13.992072+00:00 app[web.1]: AB_TESTING: A 1603832293963 0 0 yxvapzqg
+2020-10-27T20:58:13.992682+00:00 app[web.1]: 10.30.108.123 - - [27/Oct/2020 20:58:13] "[37mPOST /data HTTP/1.1[0m" 200 -
+2020-10-27T20:58:13.997884+00:00 heroku[router]: at=info method=POST path="/data" host=shielded-retreat-96911.herokuapp.com request_id=511451f8-6fa7-4ae8-a065-4fb1eff03202 fwd="192.91.235.243" dyno=web.1 connect=1ms service=3ms status=200 bytes=155 protocol=https
+2020-10-27T20:58:14.833546+00:00 heroku[router]: at=info method=GET path="/?version=A&mp1=1&mp2=1&mp3=0&mp4=0" host=shielded-retreat-96911.herokuapp.com request_id=7bca6ec4-d718-4c99-b04b-cc3e038a5e11 fwd="192.91.235.243" dyno=web.1 connect=1ms service=4ms status=200 bytes=8883 protocol=https
+2020-10-27T20:58:14.831718+00:00 app[web.1]: 10.30.108.123 - - [27/Oct/2020 20:58:14] "[37mGET /?version=A&mp1=1&mp2=1&mp3=0&mp4=0 HTTP/1.1[0m" 200 -
+2020-10-27T20:58:15.068547+00:00 app[web.1]: AB_TESTING: A 1603832295074 0 0 yxvapzqg
+2020-10-27T20:58:15.069131+00:00 app[web.1]: 10.30.108.123 - - [27/Oct/2020 20:58:15] "[37mPOST /data HTTP/1.1[0m" 200 -
+2020-10-27T20:58:15.070494+00:00 heroku[router]: at=info method=POST path="/data" host=shielded-retreat-96911.herokuapp.com request_id=71758fe3-b765-412a-a320-b7f6baf6ad3c fwd="192.91.235.243" dyno=web.1 connect=1ms service=3ms status=200 bytes=155 protocol=https
+2020-10-27T20:58:18.124215+00:00 heroku[router]: at=info method=POST path="/data" host=shielded-retreat-96911.herokuapp.com request_id=0d269bd5-a6a1-44f9-ad77-59813554478f fwd="192.91.235.243" dyno=web.1 connect=1ms service=5ms status=200 bytes=155 protocol=https
+2020-10-27T20:58:18.122272+00:00 app[web.1]: AB_TESTING: A 1603832295074 1603832298127 mp1 yxvapzqg
+2020-10-27T20:58:18.122974+00:00 app[web.1]: 10.30.108.123 - - [27/Oct/2020 20:58:18] "[37mPOST /data HTTP/1.1[0m" 200 -
+2020-10-27T20:58:19.325121+00:00 heroku[router]: at=info method=GET path="/?version=A&mp1=1&mp2=1&mp3=0&mp4=0" host=shielded-retreat-96911.herokuapp.com request_id=8f0446d4-1f8d-44c7-9e0d-ee9ee8962f9a fwd="192.91.235.243" dyno=web.1 connect=1ms service=3ms status=200 bytes=8883 protocol=https
+2020-10-27T20:58:19.442627+00:00 heroku[router]: at=info method=POST path="/data" host=shielded-retreat-96911.herokuapp.com request_id=36c7fbf5-4633-4bff-b838-a29f59643ac9 fwd="192.91.235.243" dyno=web.1 connect=1ms service=3ms status=200 bytes=155 protocol=https
+2020-10-27T20:58:19.323738+00:00 app[web.1]: 10.30.108.123 - - [27/Oct/2020 20:58:19] "[37mGET /?version=A&mp1=1&mp2=1&mp3=0&mp4=0 HTTP/1.1[0m" 200 -
+2020-10-27T20:58:19.440717+00:00 app[web.1]: AB_TESTING: A 1603832299423 0 0 yxvapzqg
+2020-10-27T20:58:19.441338+00:00 app[web.1]: 10.30.108.123 - - [27/Oct/2020 20:58:19] "[37mPOST /data HTTP/1.1[0m" 200 -
+2020-10-27T20:58:20.147806+00:00 app[web.1]: 10.30.108.123 - - [27/Oct/2020 20:58:20] "[37mGET /?version=A&mp1=1&mp2=1&mp3=0&mp4=0 HTTP/1.1[0m" 200 -
+2020-10-27T20:58:20.288793+00:00 app[web.1]: AB_TESTING: A 1603832300277 0 0 yxvapzqg
+2020-10-27T20:58:20.289551+00:00 app[web.1]: 10.30.108.123 - - [27/Oct/2020 20:58:20] "[37mPOST /data HTTP/1.1[0m" 200 -
+2020-10-27T20:58:20.149457+00:00 heroku[router]: at=info method=GET path="/?version=A&mp1=1&mp2=1&mp3=0&mp4=0" host=shielded-retreat-96911.herokuapp.com request_id=02e283e0-23a5-4e3e-97f0-6973e6d830b5 fwd="192.91.235.243" dyno=web.1 connect=1ms service=5ms status=200 bytes=8883 protocol=https
+2020-10-27T20:58:20.291039+00:00 heroku[router]: at=info method=POST path="/data" host=shielded-retreat-96911.herokuapp.com request_id=cfb0feae-e388-470e-bbc4-f8bf1dd11c9c fwd="192.91.235.243" dyno=web.1 connect=1ms service=4ms status=200 bytes=155 protocol=https
+2020-10-27T20:58:20.919649+00:00 heroku[router]: at=info method=GET path="/?version=A&mp1=1&mp2=1&mp3=0&mp4=0" host=shielded-retreat-96911.herokuapp.com request_id=ead83b26-2246-4352-8061-26f6f4507341 fwd="192.91.235.243" dyno=web.1 connect=1ms service=5ms status=200 bytes=8883 protocol=https
+2020-10-27T20:58:20.912204+00:00 app[web.1]: 10.30.108.123 - - [27/Oct/2020 20:58:20] "[37mGET /?version=A&mp1=1&mp2=1&mp3=0&mp4=0 HTTP/1.1[0m" 200 -
+2020-10-27T20:58:21.048402+00:00 app[web.1]: AB_TESTING: A 1603832301031 0 0 yxvapzqg
+2020-10-27T20:58:21.049180+00:00 app[web.1]: 10.30.108.123 - - [27/Oct/2020 20:58:21] "[37mPOST /data HTTP/1.1[0m" 200 -
+2020-10-27T20:58:21.052308+00:00 heroku[router]: at=info method=POST path="/data" host=shielded-retreat-96911.herokuapp.com request_id=0ea2e2f6-8f7a-4705-9788-cfa2060e6fba fwd="192.91.235.243" dyno=web.1 connect=1ms service=8ms status=200 bytes=155 protocol=https
+2020-10-27T20:58:21.229518+00:00 heroku[router]: at=info method=GET path="/?version=A&mp1=1&mp2=1&mp3=0&mp4=0" host=shielded-retreat-96911.herokuapp.com request_id=fb52e447-29a8-40a1-9548-89e8db7dfd22 fwd="192.91.235.243" dyno=web.1 connect=1ms service=8ms status=200 bytes=8883 protocol=https
+2020-10-27T20:58:21.227369+00:00 app[web.1]: 10.30.108.123 - - [27/Oct/2020 20:58:21] "[37mGET /?version=A&mp1=1&mp2=1&mp3=0&mp4=0 HTTP/1.1[0m" 200 -
+2020-10-27T20:58:21.383004+00:00 app[web.1]: AB_TESTING: A 1603832301389 0 0 yxvapzqg
+2020-10-27T20:58:21.383686+00:00 app[web.1]: 10.30.108.123 - - [27/Oct/2020 20:58:21] "[37mPOST /data HTTP/1.1[0m" 200 -
+2020-10-27T20:58:21.385027+00:00 heroku[router]: at=info method=POST path="/data" host=shielded-retreat-96911.herokuapp.com request_id=9407af3b-584c-483a-bdc5-b439913155a3 fwd="192.91.235.243" dyno=web.1 connect=1ms service=4ms status=200 bytes=155 protocol=https
+2020-10-27T20:58:22.171701+00:00 heroku[router]: at=info method=POST path="/data" host=shielded-retreat-96911.herokuapp.com request_id=5ac7abcd-5edd-4c4f-874f-373235695fd0 fwd="192.91.235.243" dyno=web.1 connect=1ms service=5ms status=200 bytes=155 protocol=https
+2020-10-27T20:58:22.026662+00:00 heroku[router]: at=info method=GET path="/?version=A&mp1=1&mp2=1&mp3=0&mp4=0" host=shielded-retreat-96911.herokuapp.com request_id=39cb583b-4292-4c90-b67a-4c2707114bcc fwd="192.91.235.243" dyno=web.1 connect=1ms service=12ms status=200 bytes=8883 protocol=https
+2020-10-27T20:58:22.024999+00:00 app[web.1]: 10.30.108.123 - - [27/Oct/2020 20:58:22] "[37mGET /?version=A&mp1=1&mp2=1&mp3=0&mp4=0 HTTP/1.1[0m" 200 -
+2020-10-27T20:58:22.169273+00:00 app[web.1]: AB_TESTING: A 1603832302159 0 0 yxvapzqg
+2020-10-27T20:58:22.170158+00:00 app[web.1]: 10.30.108.123 - - [27/Oct/2020 20:58:22] "[37mPOST /data HTTP/1.1[0m" 200 -
+2020-10-27T20:58:22.884153+00:00 heroku[router]: at=info method=GET path="/?version=A&mp1=1&mp2=1&mp3=0&mp4=0" host=shielded-retreat-96911.herokuapp.com request_id=443ebc9f-ffb4-44ed-aefb-14dc78dab6b2 fwd="192.91.235.243" dyno=web.1 connect=1ms service=4ms status=200 bytes=8883 protocol=https
+2020-10-27T20:58:22.875594+00:00 app[web.1]: 10.30.108.123 - - [27/Oct/2020 20:58:22] "[37mGET /?version=A&mp1=1&mp2=1&mp3=0&mp4=0 HTTP/1.1[0m" 200 -
+2020-10-27T20:58:23.024763+00:00 app[web.1]: AB_TESTING: A 1603832303016 0 0 yxvapzqg
+2020-10-27T20:58:23.028363+00:00 app[web.1]: 10.30.108.123 - - [27/Oct/2020 20:58:23] "[37mPOST /data HTTP/1.1[0m" 200 -
+2020-10-27T20:58:23.036512+00:00 heroku[router]: at=info method=POST path="/data" host=shielded-retreat-96911.herokuapp.com request_id=db6605e0-f5db-468e-9f29-82a9915c050d fwd="192.91.235.243" dyno=web.1 connect=1ms service=7ms status=200 bytes=155 protocol=https
+2020-10-27T20:58:23.620933+00:00 heroku[router]: at=info method=GET path="/?version=A&mp1=1&mp2=1&mp3=0&mp4=0" host=shielded-retreat-96911.herokuapp.com request_id=d014347f-09f6-4193-af28-7b0cb79e4254 fwd="192.91.235.243" dyno=web.1 connect=1ms service=7ms status=200 bytes=8883 protocol=https
+2020-10-27T20:58:23.617165+00:00 app[web.1]: 10.30.108.123 - - [27/Oct/2020 20:58:23] "[37mGET /?version=A&mp1=1&mp2=1&mp3=0&mp4=0 HTTP/1.1[0m" 200 -
+2020-10-27T20:58:23.758505+00:00 app[web.1]: AB_TESTING: A 1603832303749 0 0 yxvapzqg
+2020-10-27T20:58:23.762309+00:00 app[web.1]: 10.30.108.123 - - [27/Oct/2020 20:58:23] "[37mPOST /data HTTP/1.1[0m" 200 -
+2020-10-27T20:58:23.764226+00:00 heroku[router]: at=info method=POST path="/data" host=shielded-retreat-96911.herokuapp.com request_id=30037e3c-1708-4f10-a873-e516c6bd7c3d fwd="192.91.235.243" dyno=web.1 connect=1ms service=14ms status=200 bytes=155 protocol=https
+2020-10-27T20:58:24.531108+00:00 heroku[router]: at=info method=GET path="/?version=A&mp1=1&mp2=1&mp3=0&mp4=0" host=shielded-retreat-96911.herokuapp.com request_id=9d050e4e-c429-4747-b695-0552be0892bc fwd="192.91.235.243" dyno=web.1 connect=1ms service=6ms status=200 bytes=8883 protocol=https
+2020-10-27T20:58:24.529142+00:00 app[web.1]: 10.30.108.123 - - [27/Oct/2020 20:58:24] "[37mGET /?version=A&mp1=1&mp2=1&mp3=0&mp4=0 HTTP/1.1[0m" 200 -
+2020-10-27T20:58:24.656896+00:00 app[web.1]: AB_TESTING: A 1603832304636 0 0 yxvapzqg
+2020-10-27T20:58:24.659515+00:00 app[web.1]: 10.30.108.123 - - [27/Oct/2020 20:58:24] "[37mPOST /data HTTP/1.1[0m" 200 -
+2020-10-27T20:58:24.660955+00:00 heroku[router]: at=info method=POST path="/data" host=shielded-retreat-96911.herokuapp.com request_id=cdb1cf87-e486-4045-bc21-9f054e1d86fe fwd="192.91.235.243" dyno=web.1 connect=1ms service=9ms status=200 bytes=155 protocol=https
+2020-10-27T20:58:25.216054+00:00 heroku[router]: at=info method=GET path="/?version=A&mp1=1&mp2=1&mp3=0&mp4=0" host=shielded-retreat-96911.herokuapp.com request_id=69fbd7aa-55c2-48b5-8ba2-00657e30136d fwd="192.91.235.243" dyno=web.1 connect=1ms service=4ms status=200 bytes=8883 protocol=https
+2020-10-27T20:58:25.214649+00:00 app[web.1]: 10.30.108.123 - - [27/Oct/2020 20:58:25] "[37mGET /?version=A&mp1=1&mp2=1&mp3=0&mp4=0 HTTP/1.1[0m" 200 -
+2020-10-27T20:58:25.386533+00:00 app[web.1]: AB_TESTING: A 1603832305388 0 0 yxvapzqg
+2020-10-27T20:58:25.387276+00:00 app[web.1]: 10.30.108.123 - - [27/Oct/2020 20:58:25] "[37mPOST /data HTTP/1.1[0m" 200 -
+2020-10-27T20:58:25.388608+00:00 heroku[router]: at=info method=POST path="/data" host=shielded-retreat-96911.herokuapp.com request_id=0bbdd055-39f5-4880-9e09-a39eaf0038df fwd="192.91.235.243" dyno=web.1 connect=1ms service=5ms status=200 bytes=155 protocol=https
+2020-10-27T20:58:26.105343+00:00 heroku[router]: at=info method=GET path="/?version=A&mp1=1&mp2=1&mp3=0&mp4=0" host=shielded-retreat-96911.herokuapp.com request_id=a492c0e1-c3c8-45d1-9fd4-b826c3577697 fwd="192.91.235.243" dyno=web.1 connect=1ms service=5ms status=200 bytes=8883 protocol=https
+2020-10-27T20:58:26.103754+00:00 app[web.1]: 10.30.108.123 - - [27/Oct/2020 20:58:26] "[37mGET /?version=A&mp1=1&mp2=1&mp3=0&mp4=0 HTTP/1.1[0m" 200 -
+2020-10-27T20:58:26.246528+00:00 app[web.1]: AB_TESTING: A 1603832306251 0 0 yxvapzqg
+2020-10-27T20:58:26.247113+00:00 app[web.1]: 10.30.108.123 - - [27/Oct/2020 20:58:26] "[37mPOST /data HTTP/1.1[0m" 200 -
+2020-10-27T20:58:26.248424+00:00 heroku[router]: at=info method=POST path="/data" host=shielded-retreat-96911.herokuapp.com request_id=ce6ab5f4-2e5e-4f43-ab91-92ac72c1ae4a fwd="192.91.235.243" dyno=web.1 connect=1ms service=4ms status=200 bytes=155 protocol=https
+2020-10-27T20:58:26.847140+00:00 heroku[router]: at=info method=GET path="/?version=A&mp1=1&mp2=1&mp3=0&mp4=0" host=shielded-retreat-96911.herokuapp.com request_id=9246d371-c0eb-407c-b820-81badfcc5d4d fwd="192.91.235.243" dyno=web.1 connect=1ms service=4ms status=200 bytes=8883 protocol=https
+2020-10-27T20:58:26.845543+00:00 app[web.1]: 10.30.108.123 - - [27/Oct/2020 20:58:26] "[37mGET /?version=A&mp1=1&mp2=1&mp3=0&mp4=0 HTTP/1.1[0m" 200 -
+2020-10-27T20:58:26.966802+00:00 app[web.1]: AB_TESTING: A 1603832306958 0 0 yxvapzqg
+2020-10-27T20:58:26.967472+00:00 app[web.1]: 10.30.108.123 - - [27/Oct/2020 20:58:26] "[37mPOST /data HTTP/1.1[0m" 200 -
+2020-10-27T20:58:26.969179+00:00 heroku[router]: at=info method=POST path="/data" host=shielded-retreat-96911.herokuapp.com request_id=dcb988a0-0e26-45f4-8d2f-887db5907211 fwd="192.91.235.243" dyno=web.1 connect=1ms service=4ms status=200 bytes=155 protocol=https
+2020-10-27T20:58:27.732242+00:00 app[web.1]: 10.30.108.123 - - [27/Oct/2020 20:58:27] "[37mGET /?version=A&mp1=1&mp2=1&mp3=0&mp4=0 HTTP/1.1[0m" 200 -
+2020-10-27T20:58:27.910310+00:00 app[web.1]: AB_TESTING: A 1603832307836 0 0 yxvapzqg
+2020-10-27T20:58:27.911082+00:00 app[web.1]: 10.30.108.123 - - [27/Oct/2020 20:58:27] "[37mPOST /data HTTP/1.1[0m" 200 -
+2020-10-27T20:58:27.733658+00:00 heroku[router]: at=info method=GET path="/?version=A&mp1=1&mp2=1&mp3=0&mp4=0" host=shielded-retreat-96911.herokuapp.com request_id=a4c4aabe-e322-4c45-8acb-187d939b25f4 fwd="192.91.235.243" dyno=web.1 connect=1ms service=3ms status=200 bytes=8883 protocol=https
+2020-10-27T20:58:27.912785+00:00 heroku[router]: at=info method=POST path="/data" host=shielded-retreat-96911.herokuapp.com request_id=25b99cb1-de7c-40a0-92fe-4ea401185af8 fwd="192.91.235.243" dyno=web.1 connect=1ms service=4ms status=200 bytes=155 protocol=https
+2020-10-27T20:58:28.415911+00:00 app[web.1]: 10.30.108.123 - - [27/Oct/2020 20:58:28] "[37mGET /?version=A&mp1=1&mp2=1&mp3=0&mp4=0 HTTP/1.1[0m" 200 -
+2020-10-27T20:58:28.558483+00:00 app[web.1]: AB_TESTING: A 1603832308560 0 0 yxvapzqg
+2020-10-27T20:58:28.559406+00:00 app[web.1]: 10.30.108.123 - - [27/Oct/2020 20:58:28] "[37mPOST /data HTTP/1.1[0m" 200 -
+2020-10-27T20:58:28.417513+00:00 heroku[router]: at=info method=GET path="/?version=A&mp1=1&mp2=1&mp3=0&mp4=0" host=shielded-retreat-96911.herokuapp.com request_id=71f83979-980b-4747-ba89-8cdc328ca9b9 fwd="192.91.235.243" dyno=web.1 connect=1ms service=5ms status=200 bytes=8883 protocol=https
+2020-10-27T20:58:28.560883+00:00 heroku[router]: at=info method=POST path="/data" host=shielded-retreat-96911.herokuapp.com request_id=20163a7a-85e8-48c0-b584-e22c09e064a5 fwd="192.91.235.243" dyno=web.1 connect=1ms service=4ms status=200 bytes=155 protocol=https
+2020-10-27T20:58:29.108028+00:00 heroku[router]: at=info method=GET path="/?version=A&mp1=1&mp2=1&mp3=0&mp4=0" host=shielded-retreat-96911.herokuapp.com request_id=841d22bd-dc5c-47c0-b325-e65962ca3395 fwd="192.91.235.243" dyno=web.1 connect=1ms service=4ms status=200 bytes=8883 protocol=https
+2020-10-27T20:58:29.106646+00:00 app[web.1]: 10.30.108.123 - - [27/Oct/2020 20:58:29] "[37mGET /?version=A&mp1=1&mp2=1&mp3=0&mp4=0 HTTP/1.1[0m" 200 -
+2020-10-27T20:58:29.262634+00:00 app[web.1]: AB_TESTING: A 1603832309253 0 0 yxvapzqg
+2020-10-27T20:58:29.263633+00:00 app[web.1]: 10.30.108.123 - - [27/Oct/2020 20:58:29] "[37mPOST /data HTTP/1.1[0m" 200 -
+2020-10-27T20:58:29.265467+00:00 heroku[router]: at=info method=POST path="/data" host=shielded-retreat-96911.herokuapp.com request_id=10b65cf4-4724-4371-9cb7-b77b1743a16b fwd="192.91.235.243" dyno=web.1 connect=1ms service=4ms status=200 bytes=155 protocol=https
+2020-10-27T20:58:29.755512+00:00 heroku[router]: at=info method=GET path="/?version=A&mp1=1&mp2=1&mp3=0&mp4=0" host=shielded-retreat-96911.herokuapp.com request_id=0b8d4cd4-bf06-4773-b7f6-5353a50d2514 fwd="192.91.235.243" dyno=web.1 connect=1ms service=4ms status=200 bytes=8883 protocol=https
+2020-10-27T20:58:29.753791+00:00 app[web.1]: 10.30.108.123 - - [27/Oct/2020 20:58:29] "[37mGET /?version=A&mp1=1&mp2=1&mp3=0&mp4=0 HTTP/1.1[0m" 200 -
+2020-10-27T20:58:29.896328+00:00 app[web.1]: AB_TESTING: A 1603832309901 0 0 yxvapzqg
+2020-10-27T20:58:29.897196+00:00 app[web.1]: 10.30.108.123 - - [27/Oct/2020 20:58:29] "[37mPOST /data HTTP/1.1[0m" 200 -
+2020-10-27T20:58:29.899063+00:00 heroku[router]: at=info method=POST path="/data" host=shielded-retreat-96911.herokuapp.com request_id=3b6122c4-c9d0-46ed-8620-f9a329045076 fwd="192.91.235.243" dyno=web.1 connect=1ms service=4ms status=200 bytes=155 protocol=https
+2020-10-27T20:58:55.950737+00:00 heroku[router]: at=info method=GET path="/?version=B&mp1=1&mp2=1&mp3=0&mp4=0" host=shielded-retreat-96911.herokuapp.com request_id=5af2f3c3-e01c-4a47-8c0b-e949ce6b6b7b fwd="192.91.235.243" dyno=web.1 connect=1ms service=7ms status=200 bytes=9418 protocol=https
+2020-10-27T20:58:55.949507+00:00 app[web.1]: 10.30.108.123 - - [27/Oct/2020 20:58:55] "[37mGET /?version=B&mp1=1&mp2=1&mp3=0&mp4=0 HTTP/1.1[0m" 200 -
+2020-10-27T20:58:56.244884+00:00 app[web.1]: AB_TESTING: B 1603832336123 0 0 yxvapzqg
+2020-10-27T20:58:56.245685+00:00 app[web.1]: 10.30.108.123 - - [27/Oct/2020 20:58:56] "[37mPOST /data HTTP/1.1[0m" 200 -
+2020-10-27T20:58:56.246924+00:00 heroku[router]: at=info method=POST path="/data" host=shielded-retreat-96911.herokuapp.com request_id=1c5d73a6-a71e-4f28-b8bd-2be1b7b3dd90 fwd="192.91.235.243" dyno=web.1 connect=1ms service=3ms status=200 bytes=155 protocol=https
+2020-10-27T20:58:59.094289+00:00 heroku[router]: at=info method=POST path="/data" host=shielded-retreat-96911.herokuapp.com request_id=28b9bb6c-39ef-4a01-8078-0674e5c020c2 fwd="192.91.235.243" dyno=web.1 connect=1ms service=3ms status=200 bytes=155 protocol=https
+2020-10-27T20:58:59.092442+00:00 app[web.1]: AB_TESTING: B 1603832336123 1603832339094 mp1 yxvapzqg
+2020-10-27T20:58:59.092994+00:00 app[web.1]: 10.30.108.123 - - [27/Oct/2020 20:58:59] "[37mPOST /data HTTP/1.1[0m" 200 -
+2020-10-27T20:59:00.803604+00:00 heroku[router]: at=info method=POST path="/data" host=shielded-retreat-96911.herokuapp.com request_id=3d68fb68-8b74-45a1-b922-0170ff7806ab fwd="192.91.235.243" dyno=web.1 connect=1ms service=6ms status=200 bytes=155 protocol=https
+2020-10-27T20:59:00.798768+00:00 app[web.1]: AB_TESTING: B 1603832336123 1603832340797 mp2 yxvapzqg
+2020-10-27T20:59:00.799465+00:00 app[web.1]: 10.30.108.123 - - [27/Oct/2020 20:59:00] "[37mPOST /data HTTP/1.1[0m" 200 -
+2020-10-27T20:59:02.112493+00:00 heroku[router]: at=info method=POST path="/data" host=shielded-retreat-96911.herokuapp.com request_id=d55a7dfd-9e57-4071-b55b-c787d72b5558 fwd="192.91.235.243" dyno=web.1 connect=1ms service=4ms status=200 bytes=155 protocol=https
+2020-10-27T20:59:02.110340+00:00 app[web.1]: AB_TESTING: B 1603832336123 1603832342111 mp3 yxvapzqg
+2020-10-27T20:59:02.111076+00:00 app[web.1]: 10.30.108.123 - - [27/Oct/2020 20:59:02] "[37mPOST /data HTTP/1.1[0m" 200 -
+2020-10-27T20:59:03.402334+00:00 app[web.1]: AB_TESTING: B 1603832336123 1603832343403 mp4 yxvapzqg
+2020-10-27T20:59:03.403044+00:00 app[web.1]: 10.30.108.123 - - [27/Oct/2020 20:59:03] "[37mPOST /data HTTP/1.1[0m" 200 -
+2020-10-27T20:59:03.601452+00:00 app[web.1]: AB_TESTING: B 1603832336123 1603832343605 mp4 yxvapzqg
+2020-10-27T20:59:03.602238+00:00 app[web.1]: 10.30.108.123 - - [27/Oct/2020 20:59:03] "[37mPOST /data HTTP/1.1[0m" 200 -
+2020-10-27T20:59:03.404284+00:00 heroku[router]: at=info method=POST path="/data" host=shielded-retreat-96911.herokuapp.com request_id=5c6e5535-630d-4e66-a920-c4f3724fba59 fwd="192.91.235.243" dyno=web.1 connect=1ms service=5ms status=200 bytes=155 protocol=https
+2020-10-27T20:59:03.603349+00:00 heroku[router]: at=info method=POST path="/data" host=shielded-retreat-96911.herokuapp.com request_id=42a1737f-9a2c-4ed1-a9ae-633e2e79e4c5 fwd="192.91.235.243" dyno=web.1 connect=1ms service=4ms status=200 bytes=155 protocol=https
+2020-10-27T20:59:03.796637+00:00 heroku[router]: at=info method=POST path="/data" host=shielded-retreat-96911.herokuapp.com request_id=6b55854a-7de9-4eec-98a4-3a6c4f0ecff5 fwd="192.91.235.243" dyno=web.1 connect=1ms service=4ms status=200 bytes=155 protocol=https
+2020-10-27T20:59:03.794351+00:00 app[web.1]: AB_TESTING: B 1603832336123 1603832343800 mp4 yxvapzqg
+2020-10-27T20:59:03.795140+00:00 app[web.1]: 10.30.108.123 - - [27/Oct/2020 20:59:03] "[37mPOST /data HTTP/1.1[0m" 200 -
+2020-10-27T20:59:04.002378+00:00 app[web.1]: AB_TESTING: B 1603832336123 1603832344011 mp4 yxvapzqg
+2020-10-27T20:59:04.002991+00:00 app[web.1]: 10.30.108.123 - - [27/Oct/2020 20:59:04] "[37mPOST /data HTTP/1.1[0m" 200 -
+2020-10-27T20:59:04.009027+00:00 heroku[router]: at=info method=POST path="/data" host=shielded-retreat-96911.herokuapp.com request_id=f1d92274-5362-4a32-a242-c4e20383a5a6 fwd="192.91.235.243" dyno=web.1 connect=1ms service=3ms status=200 bytes=155 protocol=https
+2020-10-27T20:59:05.156871+00:00 heroku[router]: at=info method=POST path="/data" host=shielded-retreat-96911.herokuapp.com request_id=864dfbbf-57c7-435d-a964-601cade78cc5 fwd="192.91.235.243" dyno=web.1 connect=1ms service=3ms status=200 bytes=155 protocol=https
+2020-10-27T20:59:05.154938+00:00 app[web.1]: AB_TESTING: B 1603832336123 1603832345163 mp1 yxvapzqg
+2020-10-27T20:59:05.155594+00:00 app[web.1]: 10.30.108.123 - - [27/Oct/2020 20:59:05] "[37mPOST /data HTTP/1.1[0m" 200 -
+2020-10-27T20:59:05.334156+00:00 app[web.1]: AB_TESTING: B 1603832336123 1603832345342 mp1 yxvapzqg
+2020-10-27T20:59:05.334710+00:00 app[web.1]: 10.30.108.123 - - [27/Oct/2020 20:59:05] "[37mPOST /data HTTP/1.1[0m" 200 -
+2020-10-27T20:59:05.335910+00:00 heroku[router]: at=info method=POST path="/data" host=shielded-retreat-96911.herokuapp.com request_id=ddd1d2c1-8b98-4914-b84a-bd00ac7bde29 fwd="192.91.235.243" dyno=web.1 connect=1ms service=3ms status=200 bytes=155 protocol=https
+2020-10-27T20:59:05.582540+00:00 heroku[router]: at=info method=POST path="/data" host=shielded-retreat-96911.herokuapp.com request_id=bcbb5964-39e6-4beb-8f7a-9fe484a8515d fwd="192.91.235.243" dyno=web.1 connect=1ms service=4ms status=200 bytes=155 protocol=https
+2020-10-27T20:59:05.580495+00:00 app[web.1]: AB_TESTING: B 1603832336123 1603832345553 mp1 yxvapzqg
+2020-10-27T20:59:05.581301+00:00 app[web.1]: 10.30.108.123 - - [27/Oct/2020 20:59:05] "[37mPOST /data HTTP/1.1[0m" 200 -
+2020-10-27T20:59:05.739259+00:00 app[web.1]: AB_TESTING: B 1603832336123 1603832345748 mp1 yxvapzqg
+2020-10-27T20:59:05.739865+00:00 app[web.1]: 10.30.108.123 - - [27/Oct/2020 20:59:05] "[37mPOST /data HTTP/1.1[0m" 200 -
+2020-10-27T20:59:05.741058+00:00 heroku[router]: at=info method=POST path="/data" host=shielded-retreat-96911.herokuapp.com request_id=f4dd5ee5-2185-4314-9f7a-da16da45522d fwd="192.91.235.243" dyno=web.1 connect=1ms service=3ms status=200 bytes=155 protocol=https
+2020-10-27T20:59:05.943014+00:00 heroku[router]: at=info method=POST path="/data" host=shielded-retreat-96911.herokuapp.com request_id=70923598-155e-4d25-955a-f9242c22ea78 fwd="192.91.235.243" dyno=web.1 connect=0ms service=7ms status=200 bytes=155 protocol=https
+2020-10-27T20:59:05.936096+00:00 app[web.1]: AB_TESTING: B 1603832336123 1603832345945 mp1 yxvapzqg
+2020-10-27T20:59:05.936988+00:00 app[web.1]: 10.30.108.123 - - [27/Oct/2020 20:59:05] "[37mPOST /data HTTP/1.1[0m" 200 -
+2020-10-27T20:59:06.139753+00:00 app[web.1]: AB_TESTING: B 1603832336123 1603832346145 mp1 yxvapzqg
+2020-10-27T20:59:06.140657+00:00 app[web.1]: 10.30.108.123 - - [27/Oct/2020 20:59:06] "[37mPOST /data HTTP/1.1[0m" 200 -
+2020-10-27T20:59:06.142616+00:00 heroku[router]: at=info method=POST path="/data" host=shielded-retreat-96911.herokuapp.com request_id=4f952eb7-0b1d-430b-b5a7-8b22bf95885d fwd="192.91.235.243" dyno=web.1 connect=1ms service=6ms status=200 bytes=155 protocol=https
+2020-10-27T20:59:06.360478+00:00 heroku[router]: at=info method=POST path="/data" host=shielded-retreat-96911.herokuapp.com request_id=99db1b8e-4e21-44e5-a335-23fa6153d525 fwd="192.91.235.243" dyno=web.1 connect=1ms service=6ms status=200 bytes=155 protocol=https
+2020-10-27T20:59:06.356658+00:00 app[web.1]: AB_TESTING: B 1603832336123 1603832346364 mp1 yxvapzqg
+2020-10-27T20:59:06.357447+00:00 app[web.1]: 10.30.108.123 - - [27/Oct/2020 20:59:06] "[37mPOST /data HTTP/1.1[0m" 200 -
+2020-10-27T20:59:06.560263+00:00 app[web.1]: AB_TESTING: B 1603832336123 1603832346568 mp1 yxvapzqg
+2020-10-27T20:59:06.560864+00:00 app[web.1]: 10.30.108.123 - - [27/Oct/2020 20:59:06] "[37mPOST /data HTTP/1.1[0m" 200 -
+2020-10-27T20:59:06.562318+00:00 heroku[router]: at=info method=POST path="/data" host=shielded-retreat-96911.herokuapp.com request_id=604a69d7-809d-46f5-a90b-efc3ad3bb0fa fwd="192.91.235.243" dyno=web.1 connect=1ms service=4ms status=200 bytes=155 protocol=https
+2020-10-27T20:59:06.780542+00:00 app[web.1]: AB_TESTING: B 1603832336123 1603832346786 mp1 yxvapzqg
+2020-10-27T20:59:06.781112+00:00 app[web.1]: 10.30.108.123 - - [27/Oct/2020 20:59:06] "[37mPOST /data HTTP/1.1[0m" 200 -
+2020-10-27T20:59:06.990176+00:00 app[web.1]: AB_TESTING: B 1603832336123 1603832346998 mp1 yxvapzqg
+2020-10-27T20:59:06.990886+00:00 app[web.1]: 10.30.108.123 - - [27/Oct/2020 20:59:06] "[37mPOST /data HTTP/1.1[0m" 200 -
+2020-10-27T20:59:06.782218+00:00 heroku[router]: at=info method=POST path="/data" host=shielded-retreat-96911.herokuapp.com request_id=e6b579ea-38f8-4194-bfd7-d52c3fda5458 fwd="192.91.235.243" dyno=web.1 connect=1ms service=3ms status=200 bytes=155 protocol=https
+2020-10-27T20:59:06.992202+00:00 heroku[router]: at=info method=POST path="/data" host=shielded-retreat-96911.herokuapp.com request_id=4207a161-f972-4f22-8a3c-4b6a7a69e40e fwd="192.91.235.243" dyno=web.1 connect=1ms service=3ms status=200 bytes=155 protocol=https
+2020-10-27T20:59:07.173571+00:00 heroku[router]: at=info method=POST path="/data" host=shielded-retreat-96911.herokuapp.com request_id=1c777889-5631-4cf7-9d86-360c920bd458 fwd="192.91.235.243" dyno=web.1 connect=1ms service=4ms status=200 bytes=155 protocol=https
+2020-10-27T20:59:07.170975+00:00 app[web.1]: AB_TESTING: B 1603832336123 1603832347177 mp1 yxvapzqg
+2020-10-27T20:59:07.172202+00:00 app[web.1]: 10.30.108.123 - - [27/Oct/2020 20:59:07] "[37mPOST /data HTTP/1.1[0m" 200 -
+2020-10-27T20:59:07.372181+00:00 app[web.1]: AB_TESTING: B 1603832336123 1603832347379 mp1 yxvapzqg
+2020-10-27T20:59:07.372677+00:00 app[web.1]: 10.30.108.123 - - [27/Oct/2020 20:59:07] "[37mPOST /data HTTP/1.1[0m" 200 -
+2020-10-27T20:59:07.373868+00:00 heroku[router]: at=info method=POST path="/data" host=shielded-retreat-96911.herokuapp.com request_id=bf29bd6a-e5bf-411b-b25f-026bc5f2dd16 fwd="192.91.235.243" dyno=web.1 connect=2ms service=3ms status=200 bytes=155 protocol=https
+2020-10-27T20:59:07.574410+00:00 heroku[router]: at=info method=POST path="/data" host=shielded-retreat-96911.herokuapp.com request_id=da542dfe-f5b3-41ef-a388-c13e44da1973 fwd="192.91.235.243" dyno=web.1 connect=1ms service=3ms status=200 bytes=155 protocol=https
+2020-10-27T20:59:07.572464+00:00 app[web.1]: AB_TESTING: B 1603832336123 1603832347581 mp1 yxvapzqg
+2020-10-27T20:59:07.573189+00:00 app[web.1]: 10.30.108.123 - - [27/Oct/2020 20:59:07] "[37mPOST /data HTTP/1.1[0m" 200 -
+2020-10-27T20:59:07.773029+00:00 app[web.1]: AB_TESTING: B 1603832336123 1603832347769 mp1 yxvapzqg
+2020-10-27T20:59:07.773732+00:00 app[web.1]: 10.30.108.123 - - [27/Oct/2020 20:59:07] "[37mPOST /data HTTP/1.1[0m" 200 -
+2020-10-27T20:59:07.774982+00:00 heroku[router]: at=info method=POST path="/data" host=shielded-retreat-96911.herokuapp.com request_id=ec0cc51d-2ec6-4e33-9b87-7adae4c5032a fwd="192.91.235.243" dyno=web.1 connect=1ms service=5ms status=200 bytes=155 protocol=https
+2020-10-27T20:59:07.977586+00:00 heroku[router]: at=info method=POST path="/data" host=shielded-retreat-96911.herokuapp.com request_id=70c7dfbd-4e5e-4998-a149-0f3857265d43 fwd="192.91.235.243" dyno=web.1 connect=1ms service=3ms status=200 bytes=155 protocol=https
+2020-10-27T20:59:07.975668+00:00 app[web.1]: AB_TESTING: B 1603832336123 1603832347982 mp1 yxvapzqg
+2020-10-27T20:59:07.976376+00:00 app[web.1]: 10.30.108.123 - - [27/Oct/2020 20:59:07] "[37mPOST /data HTTP/1.1[0m" 200 -
+2020-10-27T20:59:08.181603+00:00 app[web.1]: AB_TESTING: B 1603832336123 1603832348190 mp1 yxvapzqg
+2020-10-27T20:59:08.182150+00:00 app[web.1]: 10.30.108.123 - - [27/Oct/2020 20:59:08] "[37mPOST /data HTTP/1.1[0m" 200 -
+2020-10-27T20:59:08.183721+00:00 heroku[router]: at=info method=POST path="/data" host=shielded-retreat-96911.herokuapp.com request_id=2968c7f0-0305-4c9e-aa12-b4747ae6bcb0 fwd="192.91.235.243" dyno=web.1 connect=1ms service=4ms status=200 bytes=155 protocol=https
+2020-10-27T20:59:08.389770+00:00 heroku[router]: at=info method=POST path="/data" host=shielded-retreat-96911.herokuapp.com request_id=b87129fe-e808-434b-8912-aa1cf8f64791 fwd="192.91.235.243" dyno=web.1 connect=1ms service=5ms status=200 bytes=155 protocol=https
+2020-10-27T20:59:08.385707+00:00 app[web.1]: AB_TESTING: B 1603832336123 1603832348389 mp1 yxvapzqg
+2020-10-27T20:59:08.386295+00:00 app[web.1]: 10.30.108.123 - - [27/Oct/2020 20:59:08] "[37mPOST /data HTTP/1.1[0m" 200 -
+2020-10-27T20:59:10.248248+00:00 app[web.1]: 10.30.108.123 - - [27/Oct/2020 20:59:10] "[37mGET /checkout?version=B HTTP/1.1[0m" 200 -
+2020-10-27T20:59:10.404601+00:00 app[web.1]: AB_TESTING: C 1603832350353 0 0 yxvapzqg
+2020-10-27T20:59:10.405193+00:00 app[web.1]: 10.30.108.123 - - [27/Oct/2020 20:59:10] "[37mPOST /data HTTP/1.1[0m" 200 -
+2020-10-27T20:59:10.249628+00:00 heroku[router]: at=info method=GET path="/checkout?version=B" host=shielded-retreat-96911.herokuapp.com request_id=b594bd63-ad78-423d-9a6c-eab8d7af867f fwd="192.91.235.243" dyno=web.1 connect=1ms service=3ms status=200 bytes=5236 protocol=https
+2020-10-27T20:59:10.406405+00:00 heroku[router]: at=info method=POST path="/data" host=shielded-retreat-96911.herokuapp.com request_id=89f37513-b329-4e5d-a0a1-9bbefef23240 fwd="192.91.235.243" dyno=web.1 connect=0ms service=3ms status=200 bytes=155 protocol=https
+2020-10-27T20:59:12.366814+00:00 heroku[router]: at=info method=GET path="/?version=B" host=shielded-retreat-96911.herokuapp.com request_id=efb3aa01-81a1-4401-bf0a-06ab7ebc4528 fwd="192.91.235.243" dyno=web.1 connect=1ms service=3ms status=200 bytes=9418 protocol=https
+2020-10-27T20:59:12.365232+00:00 app[web.1]: 10.30.108.123 - - [27/Oct/2020 20:59:12] "[37mGET /?version=B HTTP/1.1[0m" 200 -
+2020-10-27T20:59:12.533991+00:00 app[web.1]: AB_TESTING: B 1603832352539 0 0 yxvapzqg
+2020-10-27T20:59:12.534629+00:00 app[web.1]: 10.30.108.123 - - [27/Oct/2020 20:59:12] "[37mPOST /data HTTP/1.1[0m" 200 -
+2020-10-27T20:59:12.535932+00:00 heroku[router]: at=info method=POST path="/data" host=shielded-retreat-96911.herokuapp.com request_id=f2b7e5ac-bf11-4681-ad48-390f815fda36 fwd="192.91.235.243" dyno=web.1 connect=0ms service=3ms status=200 bytes=155 protocol=https
+2020-10-27T20:59:16.006803+00:00 heroku[router]: at=info method=POST path="/data" host=shielded-retreat-96911.herokuapp.com request_id=fb2aff22-b01d-4bc0-ae46-e81af7d80a4a fwd="192.91.235.243" dyno=web.1 connect=1ms service=3ms status=200 bytes=155 protocol=https
+2020-10-27T20:59:16.005082+00:00 app[web.1]: AB_TESTING: B 1603832352539 1603832356007 mp2 yxvapzqg
+2020-10-27T20:59:16.005643+00:00 app[web.1]: 10.30.108.123 - - [27/Oct/2020 20:59:16] "[37mPOST /data HTTP/1.1[0m" 200 -
+2020-10-27T20:59:16.949654+00:00 app[web.1]: AB_TESTING: B 1603832352539 1603832356957 mp1 yxvapzqg
+2020-10-27T20:59:16.950213+00:00 app[web.1]: 10.30.108.123 - - [27/Oct/2020 20:59:16] "[37mPOST /data HTTP/1.1[0m" 200 -
+2020-10-27T20:59:16.953645+00:00 heroku[router]: at=info method=POST path="/data" host=shielded-retreat-96911.herokuapp.com request_id=59bde7ab-8975-4202-880f-bf5576c7cb04 fwd="192.91.235.243" dyno=web.1 connect=1ms service=3ms status=200 bytes=155 protocol=https
+2020-10-27T20:59:19.796232+00:00 heroku[router]: at=info method=GET path="/checkout?version=B" host=shielded-retreat-96911.herokuapp.com request_id=f89f5e7b-5fbd-4d74-aa72-0cb917c74070 fwd="192.91.235.243" dyno=web.1 connect=1ms service=3ms status=200 bytes=5236 protocol=https
+2020-10-27T20:59:19.794834+00:00 app[web.1]: 10.30.108.123 - - [27/Oct/2020 20:59:19] "[37mGET /checkout?version=B HTTP/1.1[0m" 200 -
+2020-10-27T20:59:19.985399+00:00 app[web.1]: AB_TESTING: C 1603832359922 0 0 yxvapzqg
+2020-10-27T20:59:19.986034+00:00 app[web.1]: 10.30.108.123 - - [27/Oct/2020 20:59:19] "[37mPOST /data HTTP/1.1[0m" 200 -
+2020-10-27T20:59:19.987235+00:00 heroku[router]: at=info method=POST path="/data" host=shielded-retreat-96911.herokuapp.com request_id=e9f5606b-6aaf-4f41-96f0-4884c320181e fwd="192.91.235.243" dyno=web.1 connect=1ms service=3ms status=200 bytes=155 protocol=https
+2020-10-27T20:59:21.236599+00:00 heroku[router]: at=info method=GET path="/?version=B" host=shielded-retreat-96911.herokuapp.com request_id=4148df85-d592-4669-a229-9e8e53af43d9 fwd="192.91.235.243" dyno=web.1 connect=1ms service=6ms status=200 bytes=9418 protocol=https
+2020-10-27T20:59:21.231882+00:00 app[web.1]: 10.30.108.123 - - [27/Oct/2020 20:59:21] "[37mGET /?version=B HTTP/1.1[0m" 200 -
+2020-10-27T20:59:21.394070+00:00 app[web.1]: AB_TESTING: B 1603832361375 0 0 yxvapzqg
+2020-10-27T20:59:21.394681+00:00 app[web.1]: 10.30.108.123 - - [27/Oct/2020 20:59:21] "[37mPOST /data HTTP/1.1[0m" 200 -
+2020-10-27T20:59:21.395934+00:00 heroku[router]: at=info method=POST path="/data" host=shielded-retreat-96911.herokuapp.com request_id=a7c55693-b750-4cc4-987b-8b41506d08e0 fwd="192.91.235.243" dyno=web.1 connect=1ms service=3ms status=200 bytes=155 protocol=https
+2020-10-27T21:01:03.902902+00:00 heroku[router]: at=info method=POST path="/data" host=shielded-retreat-96911.herokuapp.com request_id=cf8106c0-7f8c-4eb1-918d-f68771bb011a fwd="192.91.235.243" dyno=web.1 connect=1ms service=13ms status=200 bytes=155 protocol=https
+2020-10-27T21:01:03.894903+00:00 app[web.1]: AB_TESTING: B 1603832361375 1603832463780 mp1 yxvapzqg
+2020-10-27T21:01:03.898675+00:00 app[web.1]: 10.109.218.102 - - [27/Oct/2020 21:01:03] "[37mPOST /data HTTP/1.1[0m" 200 -
+2020-10-27T21:01:04.382407+00:00 heroku[router]: at=info method=POST path="/data" host=shielded-retreat-96911.herokuapp.com request_id=df2edcf5-4887-4d9f-8002-02d9ea134f85 fwd="192.91.235.243" dyno=web.1 connect=0ms service=4ms status=200 bytes=155 protocol=https
+2020-10-27T21:01:04.380678+00:00 app[web.1]: AB_TESTING: B 1603832361375 1603832464361 mp1 yxvapzqg
+2020-10-27T21:01:04.381438+00:00 app[web.1]: 10.109.218.102 - - [27/Oct/2020 21:01:04] "[37mPOST /data HTTP/1.1[0m" 200 -
+2020-10-27T21:01:05.153501+00:00 heroku[router]: at=info method=POST path="/data" host=shielded-retreat-96911.herokuapp.com request_id=048dc794-fcc2-4f79-a1e8-7ad661d55aac fwd="192.91.235.243" dyno=web.1 connect=0ms service=3ms status=200 bytes=155 protocol=https
+2020-10-27T21:01:05.151841+00:00 app[web.1]: AB_TESTING: B 1603832361375 1603832465131 mp1 yxvapzqg
+2020-10-27T21:01:05.152406+00:00 app[web.1]: 10.109.218.102 - - [27/Oct/2020 21:01:05] "[37mPOST /data HTTP/1.1[0m" 200 -
+2020-10-27T21:01:05.506576+00:00 heroku[router]: at=info method=POST path="/data" host=shielded-retreat-96911.herokuapp.com request_id=48f5dbb0-bf1b-42d5-85f0-5a35d696e66f fwd="192.91.235.243" dyno=web.1 connect=0ms service=4ms status=200 bytes=155 protocol=https
+2020-10-27T21:01:05.504496+00:00 app[web.1]: AB_TESTING: B 1603832361375 1603832465481 mp1 yxvapzqg
+2020-10-27T21:01:05.505444+00:00 app[web.1]: 10.109.218.102 - - [27/Oct/2020 21:01:05] "[37mPOST /data HTTP/1.1[0m" 200 -
+2020-10-27T21:01:05.809766+00:00 app[web.1]: AB_TESTING: B 1603832361375 1603832465789 mp1 yxvapzqg
+2020-10-27T21:01:05.813340+00:00 app[web.1]: 10.109.218.102 - - [27/Oct/2020 21:01:05] "[37mPOST /data HTTP/1.1[0m" 200 -
+2020-10-27T21:01:06.059137+00:00 app[web.1]: AB_TESTING: B 1603832361375 1603832466032 mp1 yxvapzqg
+2020-10-27T21:01:05.821827+00:00 heroku[router]: at=info method=POST path="/data" host=shielded-retreat-96911.herokuapp.com request_id=d5712bb8-de50-45a3-9b40-4fbe1182039f fwd="192.91.235.243" dyno=web.1 connect=0ms service=10ms status=200 bytes=155 protocol=https
+2020-10-27T21:01:06.061354+00:00 heroku[router]: at=info method=POST path="/data" host=shielded-retreat-96911.herokuapp.com request_id=9276486a-c9a8-4b05-bd40-1d1872a6362d fwd="192.91.235.243" dyno=web.1 connect=0ms service=12ms status=200 bytes=155 protocol=https
+2020-10-27T21:01:06.060329+00:00 app[web.1]: 10.109.218.102 - - [27/Oct/2020 21:01:06] "[37mPOST /data HTTP/1.1[0m" 200 -
+2020-10-27T21:01:06.335224+00:00 heroku[router]: at=info method=POST path="/data" host=shielded-retreat-96911.herokuapp.com request_id=fe7cebfe-3a31-45f9-81f2-99346d69a061 fwd="192.91.235.243" dyno=web.1 connect=2ms service=14ms status=200 bytes=155 protocol=https
+2020-10-27T21:01:06.328340+00:00 app[web.1]: AB_TESTING: B 1603832361375 1603832466292 mp1 yxvapzqg
+2020-10-27T21:01:06.329614+00:00 app[web.1]: 10.109.218.102 - - [27/Oct/2020 21:01:06] "[37mPOST /data HTTP/1.1[0m" 200 -
+2020-10-27T21:01:06.571526+00:00 app[web.1]: AB_TESTING: B 1603832361375 1603832466552 mp1 yxvapzqg
+2020-10-27T21:01:06.572303+00:00 app[web.1]: 10.109.218.102 - - [27/Oct/2020 21:01:06] "[37mPOST /data HTTP/1.1[0m" 200 -
+2020-10-27T21:01:06.573217+00:00 heroku[router]: at=info method=POST path="/data" host=shielded-retreat-96911.herokuapp.com request_id=23b17841-2969-4b75-b154-b09d9de1bad7 fwd="192.91.235.243" dyno=web.1 connect=0ms service=4ms status=200 bytes=155 protocol=https
+2020-10-27T21:01:06.835086+00:00 app[web.1]: AB_TESTING: B 1603832361375 1603832466811 mp1 yxvapzqg
+2020-10-27T21:01:06.835786+00:00 app[web.1]: 10.109.218.102 - - [27/Oct/2020 21:01:06] "[37mPOST /data HTTP/1.1[0m" 200 -
+2020-10-27T21:01:07.071659+00:00 app[web.1]: AB_TESTING: B 1603832361375 1603832467046 mp1 yxvapzqg
+2020-10-27T21:01:07.072476+00:00 app[web.1]: 10.109.218.102 - - [27/Oct/2020 21:01:07] "[37mPOST /data HTTP/1.1[0m" 200 -
+2020-10-27T21:01:06.841335+00:00 heroku[router]: at=info method=POST path="/data" host=shielded-retreat-96911.herokuapp.com request_id=5a038d11-d57f-4b44-8fe7-c566b4d41559 fwd="192.91.235.243" dyno=web.1 connect=2ms service=8ms status=200 bytes=155 protocol=https
+2020-10-27T21:01:07.073693+00:00 heroku[router]: at=info method=POST path="/data" host=shielded-retreat-96911.herokuapp.com request_id=05f28210-bab3-4878-9753-35ad853a5d80 fwd="192.91.235.243" dyno=web.1 connect=0ms service=10ms status=200 bytes=155 protocol=https
+2020-10-27T21:01:07.341735+00:00 app[web.1]: AB_TESTING: B 1603832361375 1603832467323 mp1 yxvapzqg
+2020-10-27T21:01:07.342663+00:00 app[web.1]: 10.109.218.102 - - [27/Oct/2020 21:01:07] "[37mPOST /data HTTP/1.1[0m" 200 -
+2020-10-27T21:01:07.343492+00:00 heroku[router]: at=info method=POST path="/data" host=shielded-retreat-96911.herokuapp.com request_id=b5d91c7c-115b-4501-aa53-20318c140be5 fwd="192.91.235.243" dyno=web.1 connect=0ms service=3ms status=200 bytes=155 protocol=https
+2020-10-27T21:01:07.631673+00:00 heroku[router]: at=info method=POST path="/data" host=shielded-retreat-96911.herokuapp.com request_id=755fa4d1-754f-44c6-860a-dace4f88e8a1 fwd="192.91.235.243" dyno=web.1 connect=1ms service=4ms status=200 bytes=155 protocol=https
+2020-10-27T21:01:07.629846+00:00 app[web.1]: AB_TESTING: B 1603832361375 1603832467608 mp1 yxvapzqg
+2020-10-27T21:01:07.630621+00:00 app[web.1]: 10.109.218.102 - - [27/Oct/2020 21:01:07] "[37mPOST /data HTTP/1.1[0m" 200 -
+2020-10-27T21:01:07.914165+00:00 heroku[router]: at=info method=POST path="/data" host=shielded-retreat-96911.herokuapp.com request_id=d6b7c5dc-aba2-4f3c-a663-db000359d1cf fwd="192.91.235.243" dyno=web.1 connect=1ms service=4ms status=200 bytes=155 protocol=https
+2020-10-27T21:01:07.911051+00:00 app[web.1]: AB_TESTING: B 1603832361375 1603832467891 mp1 yxvapzqg
+2020-10-27T21:01:07.911999+00:00 app[web.1]: 10.109.218.102 - - [27/Oct/2020 21:01:07] "[37mPOST /data HTTP/1.1[0m" 200 -
+2020-10-27T21:01:08.212271+00:00 heroku[router]: at=info method=POST path="/data" host=shielded-retreat-96911.herokuapp.com request_id=ba68524d-dd00-40ca-b7b6-7b9ea985281c fwd="192.91.235.243" dyno=web.1 connect=0ms service=10ms status=200 bytes=155 protocol=https
+2020-10-27T21:01:08.203371+00:00 app[web.1]: AB_TESTING: B 1603832361375 1603832468183 mp1 yxvapzqg
+2020-10-27T21:01:08.208428+00:00 app[web.1]: 10.109.218.102 - - [27/Oct/2020 21:01:08] "[37mPOST /data HTTP/1.1[0m" 200 -
+2020-10-27T21:01:08.497744+00:00 heroku[router]: at=info method=POST path="/data" host=shielded-retreat-96911.herokuapp.com request_id=9a7457ff-4f0d-42a2-827d-fb4cdd5051a0 fwd="192.91.235.243" dyno=web.1 connect=0ms service=3ms status=200 bytes=155 protocol=https
+2020-10-27T21:01:08.496041+00:00 app[web.1]: AB_TESTING: B 1603832361375 1603832468475 mp1 yxvapzqg
+2020-10-27T21:01:08.496696+00:00 app[web.1]: 10.109.218.102 - - [27/Oct/2020 21:01:08] "[37mPOST /data HTTP/1.1[0m" 200 -
+2020-10-27T21:01:08.759493+00:00 heroku[router]: at=info method=POST path="/data" host=shielded-retreat-96911.herokuapp.com request_id=caeb8a5b-e66a-4709-9b83-6c33636743b9 fwd="192.91.235.243" dyno=web.1 connect=1ms service=5ms status=200 bytes=155 protocol=https
+2020-10-27T21:01:08.755830+00:00 app[web.1]: AB_TESTING: B 1603832361375 1603832468735 mp1 yxvapzqg
+2020-10-27T21:01:08.756698+00:00 app[web.1]: 10.109.218.102 - - [27/Oct/2020 21:01:08] "[37mPOST /data HTTP/1.1[0m" 200 -
+2020-10-27T21:01:09.227653+00:00 heroku[router]: at=info method=POST path="/data" host=shielded-retreat-96911.herokuapp.com request_id=f5bc271d-4730-4e8e-8cb2-660f898e0cb3 fwd="192.91.235.243" dyno=web.1 connect=0ms service=4ms status=200 bytes=155 protocol=https
+2020-10-27T21:01:09.225587+00:00 app[web.1]: AB_TESTING: B 1603832361375 1603832469204 mp1 yxvapzqg
+2020-10-27T21:01:09.226629+00:00 app[web.1]: 10.109.218.102 - - [27/Oct/2020 21:01:09] "[37mPOST /data HTTP/1.1[0m" 200 -
+2020-10-27T21:01:09.485372+00:00 heroku[router]: at=info method=POST path="/data" host=shielded-retreat-96911.herokuapp.com request_id=2ce40be3-de23-4790-811e-48b37a97be42 fwd="192.91.235.243" dyno=web.1 connect=0ms service=3ms status=200 bytes=155 protocol=https
+2020-10-27T21:01:09.483521+00:00 app[web.1]: AB_TESTING: B 1603832361375 1603832469465 mp1 yxvapzqg
+2020-10-27T21:01:09.484421+00:00 app[web.1]: 10.109.218.102 - - [27/Oct/2020 21:01:09] "[37mPOST /data HTTP/1.1[0m" 200 -
+2020-10-27T21:01:09.756307+00:00 heroku[router]: at=info method=POST path="/data" host=shielded-retreat-96911.herokuapp.com request_id=d0a6ac8f-d267-40df-8f65-7978ca1dbee1 fwd="192.91.235.243" dyno=web.1 connect=0ms service=3ms status=200 bytes=155 protocol=https
+2020-10-27T21:01:09.754626+00:00 app[web.1]: AB_TESTING: B 1603832361375 1603832469733 mp1 yxvapzqg
+2020-10-27T21:01:09.755312+00:00 app[web.1]: 10.109.218.102 - - [27/Oct/2020 21:01:09] "[37mPOST /data HTTP/1.1[0m" 200 -
+2020-10-27T21:01:10.010620+00:00 heroku[router]: at=info method=POST path="/data" host=shielded-retreat-96911.herokuapp.com request_id=91d69d22-edbb-4128-90e3-32653b14d1cb fwd="192.91.235.243" dyno=web.1 connect=0ms service=8ms status=200 bytes=155 protocol=https
+2020-10-27T21:01:10.005262+00:00 app[web.1]: AB_TESTING: B 1603832361375 1603832469985 mp1 yxvapzqg
+2020-10-27T21:01:10.009448+00:00 app[web.1]: 10.109.218.102 - - [27/Oct/2020 21:01:10] "[37mPOST /data HTTP/1.1[0m" 200 -
+2020-10-27T21:01:10.360878+00:00 heroku[router]: at=info method=POST path="/data" host=shielded-retreat-96911.herokuapp.com request_id=d0df4b42-5b13-4e01-a054-a88d52b96019 fwd="192.91.235.243" dyno=web.1 connect=13ms service=29ms status=200 bytes=155 protocol=https
+2020-10-27T21:01:10.359288+00:00 app[web.1]: AB_TESTING: B 1603832361375 1603832470301 mp1 yxvapzqg
+2020-10-27T21:01:10.359962+00:00 app[web.1]: 10.109.218.102 - - [27/Oct/2020 21:01:10] "[37mPOST /data HTTP/1.1[0m" 200 -
+2020-10-27T21:01:13.939505+00:00 heroku[router]: at=info method=GET path="/checkout?version=B" host=shielded-retreat-96911.herokuapp.com request_id=0513b7e8-8abf-49b8-a6b6-6b4c5728e10a fwd="192.91.235.243" dyno=web.1 connect=0ms service=4ms status=200 bytes=5236 protocol=https
+2020-10-27T21:01:13.938475+00:00 app[web.1]: 10.109.218.102 - - [27/Oct/2020 21:01:13] "[37mGET /checkout?version=B HTTP/1.1[0m" 200 -
+2020-10-27T21:01:14.118038+00:00 app[web.1]: AB_TESTING: C 1603832474042 0 0 yxvapzqg
+2020-10-27T21:01:14.118906+00:00 app[web.1]: 10.109.218.102 - - [27/Oct/2020 21:01:14] "[37mPOST /data HTTP/1.1[0m" 200 -
+2020-10-27T21:01:14.119870+00:00 heroku[router]: at=info method=POST path="/data" host=shielded-retreat-96911.herokuapp.com request_id=988b9917-8a7f-4221-889b-83ab95d64ab0 fwd="192.91.235.243" dyno=web.1 connect=0ms service=7ms status=200 bytes=155 protocol=https
+2020-10-27T21:01:16.105364+00:00 app[web.1]: 10.109.218.102 - - [27/Oct/2020 21:01:16] "[37mGET /?version=B HTTP/1.1[0m" 200 -
+2020-10-27T21:01:16.283074+00:00 app[web.1]: AB_TESTING: B 1603832476193 0 0 yxvapzqg
+2020-10-27T21:01:16.284160+00:00 app[web.1]: 10.109.218.102 - - [27/Oct/2020 21:01:16] "[37mPOST /data HTTP/1.1[0m" 200 -
+2020-10-27T21:01:16.107617+00:00 heroku[router]: at=info method=GET path="/?version=B" host=shielded-retreat-96911.herokuapp.com request_id=d84406cc-8f7b-4b15-a92d-9ddc98639049 fwd="192.91.235.243" dyno=web.1 connect=1ms service=9ms status=200 bytes=9418 protocol=https
+2020-10-27T21:01:16.288519+00:00 heroku[router]: at=info method=POST path="/data" host=shielded-retreat-96911.herokuapp.com request_id=02522cbd-ae0c-412a-9716-cbeae277bc03 fwd="192.91.235.243" dyno=web.1 connect=0ms service=10ms status=200 bytes=155 protocol=https
+2020-10-27T21:01:20.476317+00:00 heroku[router]: at=info method=POST path="/data" host=shielded-retreat-96911.herokuapp.com request_id=aac0c0c1-b151-4e99-b032-a508b3f55bb4 fwd="192.91.235.243" dyno=web.1 connect=1ms service=6ms status=200 bytes=155 protocol=https
+2020-10-27T21:01:20.305132+00:00 app[web.1]: 10.109.218.102 - - [27/Oct/2020 21:01:20] "[37mGET /?version=A HTTP/1.1[0m" 200 -
+2020-10-27T21:01:20.472379+00:00 app[web.1]: AB_TESTING: A 1603832480422 0 0 yxvapzqg
+2020-10-27T21:01:20.475078+00:00 app[web.1]: 10.109.218.102 - - [27/Oct/2020 21:01:20] "[37mPOST /data HTTP/1.1[0m" 200 -
+2020-10-27T21:01:20.306661+00:00 heroku[router]: at=info method=GET path="/?version=A" host=shielded-retreat-96911.herokuapp.com request_id=fe2c3e0f-84f5-4892-af68-7167b4ac3ebf fwd="192.91.235.243" dyno=web.1 connect=0ms service=9ms status=200 bytes=8883 protocol=https
+2020-10-27T21:01:23.099033+00:00 heroku[router]: at=info method=POST path="/data" host=shielded-retreat-96911.herokuapp.com request_id=43f6e8be-4b25-44f0-a042-c2f66d9e84f5 fwd="192.91.235.243" dyno=web.1 connect=0ms service=2ms status=200 bytes=155 protocol=https
+2020-10-27T21:01:23.097533+00:00 app[web.1]: AB_TESTING: A 1603832480422 1603832483077 mp1 yxvapzqg
+2020-10-27T21:01:23.098091+00:00 app[web.1]: 10.109.218.102 - - [27/Oct/2020 21:01:23] "[37mPOST /data HTTP/1.1[0m" 200 -
+2020-10-27T21:01:30.210854+00:00 heroku[router]: at=info method=POST path="/data" host=shielded-retreat-96911.herokuapp.com request_id=f16a3870-3ad4-45a6-993e-30f6d31c3d33 fwd="192.91.235.243" dyno=web.1 connect=1ms service=6ms status=200 bytes=155 protocol=https
+2020-10-27T21:01:30.206930+00:00 app[web.1]: AB_TESTING: A 1603832480422 1603832490177 mp2 yxvapzqg
+2020-10-27T21:01:30.207910+00:00 app[web.1]: 10.109.218.102 - - [27/Oct/2020 21:01:30] "[37mPOST /data HTTP/1.1[0m" 200 -
+2020-10-27T21:01:32.371361+00:00 heroku[router]: at=info method=POST path="/data" host=shielded-retreat-96911.herokuapp.com request_id=96c79498-622f-43bc-b3d5-323a1f8121fc fwd="192.91.235.243" dyno=web.1 connect=0ms service=7ms status=200 bytes=155 protocol=https
+2020-10-27T21:01:32.365480+00:00 app[web.1]: AB_TESTING: A 1603832480422 1603832492345 mp4 yxvapzqg
+2020-10-27T21:01:32.366228+00:00 app[web.1]: 10.109.218.102 - - [27/Oct/2020 21:01:32] "[37mPOST /data HTTP/1.1[0m" 200 -
+2020-10-27T21:01:34.565802+00:00 heroku[router]: at=info method=POST path="/data" host=shielded-retreat-96911.herokuapp.com request_id=4f4bd293-2117-4a51-8047-70995a06fb79 fwd="192.91.235.243" dyno=web.1 connect=0ms service=4ms status=200 bytes=155 protocol=https
+2020-10-27T21:01:34.563873+00:00 app[web.1]: AB_TESTING: A 1603832480422 1603832494544 mp3 yxvapzqg
+2020-10-27T21:01:34.564931+00:00 app[web.1]: 10.109.218.102 - - [27/Oct/2020 21:01:34] "[37mPOST /data HTTP/1.1[0m" 200 -
+2020-10-27T21:01:37.761214+00:00 heroku[router]: at=info method=POST path="/data" host=shielded-retreat-96911.herokuapp.com request_id=61c60eca-62dc-4361-b971-b77cc4ff5f1e fwd="192.91.235.243" dyno=web.1 connect=0ms service=3ms status=200 bytes=155 protocol=https
+2020-10-27T21:01:37.759847+00:00 app[web.1]: AB_TESTING: A 1603832480422 1603832497742 mp2 yxvapzqg
+2020-10-27T21:01:37.760365+00:00 app[web.1]: 10.109.218.102 - - [27/Oct/2020 21:01:37] "[37mPOST /data HTTP/1.1[0m" 200 -
+2020-10-27T21:01:39.571036+00:00 heroku[router]: at=info method=POST path="/data" host=shielded-retreat-96911.herokuapp.com request_id=cd0f6e15-abe3-41a8-ac7f-9fbb47b3d2fd fwd="192.91.235.243" dyno=web.1 connect=0ms service=14ms status=200 bytes=155 protocol=https
+2020-10-27T21:01:39.567238+00:00 app[web.1]: AB_TESTING: A 1603832480422 1603832498879 mp2 yxvapzqg
+2020-10-27T21:01:39.569432+00:00 app[web.1]: 10.109.218.102 - - [27/Oct/2020 21:01:39] "[37mPOST /data HTTP/1.1[0m" 200 -
+2020-10-27T21:01:40.770879+00:00 app[web.1]: AB_TESTING: A 1603832480422 1603832500752 mp2 yxvapzqg
+2020-10-27T21:01:40.771508+00:00 app[web.1]: 10.109.218.102 - - [27/Oct/2020 21:01:40] "[37mPOST /data HTTP/1.1[0m" 200 -
+2020-10-27T21:01:40.772388+00:00 heroku[router]: at=info method=POST path="/data" host=shielded-retreat-96911.herokuapp.com request_id=2340a1e2-af28-47ff-b11c-07b16cf92214 fwd="192.91.235.243" dyno=web.1 connect=0ms service=2ms status=200 bytes=155 protocol=https
+2020-10-27T21:01:42.685921+00:00 heroku[router]: at=info method=POST path="/data" host=shielded-retreat-96911.herokuapp.com request_id=5a0f8b8f-1ce9-4a01-8fc1-962dac72ef3c fwd="192.91.235.243" dyno=web.1 connect=1ms service=9ms status=200 bytes=155 protocol=https
+2020-10-27T21:01:42.683957+00:00 app[web.1]: AB_TESTING: A 1603832480422 1603832502652 mp3 yxvapzqg
+2020-10-27T21:01:42.684899+00:00 app[web.1]: 10.109.218.102 - - [27/Oct/2020 21:01:42] "[37mPOST /data HTTP/1.1[0m" 200 -
+2020-10-27T21:01:45.109570+00:00 app[web.1]: AB_TESTING: A 1603832480422 1603832505087 mp2 yxvapzqg
+2020-10-27T21:01:45.110412+00:00 app[web.1]: 10.109.218.102 - - [27/Oct/2020 21:01:45] "[37mPOST /data HTTP/1.1[0m" 200 -
+2020-10-27T21:01:45.111414+00:00 heroku[router]: at=info method=POST path="/data" host=shielded-retreat-96911.herokuapp.com request_id=0e61eef0-f4e0-4803-b3fa-7910b6e295ad fwd="192.91.235.243" dyno=web.1 connect=1ms service=3ms status=200 bytes=155 protocol=https
+2020-10-27T21:01:47.248302+00:00 app[web.1]: AB_TESTING: A 1603832480422 1603832506419 mp2 yxvapzqg
+2020-10-27T21:01:47.251498+00:00 app[web.1]: 10.109.218.102 - - [27/Oct/2020 21:01:47] "[37mPOST /data HTTP/1.1[0m" 200 -
+2020-10-27T21:01:47.317196+00:00 app[web.1]: AB_TESTING: A 1603832480422 1603832507283 mp2 yxvapzqg
+2020-10-27T21:01:47.318865+00:00 app[web.1]: 10.109.218.102 - - [27/Oct/2020 21:01:47] "[37mPOST /data HTTP/1.1[0m" 200 -
+2020-10-27T21:01:47.272862+00:00 heroku[router]: at=info method=POST path="/data" host=shielded-retreat-96911.herokuapp.com request_id=472c32ff-8668-4b85-ba5f-4d4d86693a80 fwd="192.91.235.243" dyno=web.1 connect=93ms service=24ms status=200 bytes=155 protocol=https
+2020-10-27T21:01:47.348263+00:00 heroku[router]: at=info method=POST path="/data" host=shielded-retreat-96911.herokuapp.com request_id=53e5e475-9d09-4dd5-98c8-bddb36cc68b3 fwd="192.91.235.243" dyno=web.1 connect=6ms service=31ms status=200 bytes=155 protocol=https
+2020-10-27T21:01:48.056244+00:00 app[web.1]: AB_TESTING: A 1603832480422 1603832508025 mp2 yxvapzqg
+2020-10-27T21:01:48.057290+00:00 app[web.1]: 10.109.218.102 - - [27/Oct/2020 21:01:48] "[37mPOST /data HTTP/1.1[0m" 200 -
+2020-10-27T21:01:48.060450+00:00 heroku[router]: at=info method=POST path="/data" host=shielded-retreat-96911.herokuapp.com request_id=b453a47c-885f-40f2-9f7b-adf7c23cad8f fwd="192.91.235.243" dyno=web.1 connect=2ms service=6ms status=200 bytes=155 protocol=https
+2020-10-27T21:01:51.201306+00:00 heroku[router]: at=info method=POST path="/data" host=shielded-retreat-96911.herokuapp.com request_id=5353c91f-508a-4c4c-a84c-3a591563403b fwd="192.91.235.243" dyno=web.1 connect=0ms service=12ms status=200 bytes=155 protocol=https
+2020-10-27T21:01:51.197671+00:00 app[web.1]: AB_TESTING: A 1603832480422 1603832511166 mp2 yxvapzqg
+2020-10-27T21:01:51.198464+00:00 app[web.1]: 10.109.218.102 - - [27/Oct/2020 21:01:51] "[37mPOST /data HTTP/1.1[0m" 200 -
+2020-10-27T21:01:57.667864+00:00 app[web.1]: AB_TESTING: A 1603832480422 1603832517634 mp2 yxvapzqg
+2020-10-27T21:01:57.668625+00:00 app[web.1]: 10.109.218.102 - - [27/Oct/2020 21:01:57] "[37mPOST /data HTTP/1.1[0m" 200 -
+2020-10-27T21:01:57.913447+00:00 app[web.1]: AB_TESTING: A 1603832480422 1603832517886 mp2 yxvapzqg
+2020-10-27T21:01:57.916174+00:00 app[web.1]: 10.109.218.102 - - [27/Oct/2020 21:01:57] "[37mPOST /data HTTP/1.1[0m" 200 -
+2020-10-27T21:01:57.676307+00:00 heroku[router]: at=info method=POST path="/data" host=shielded-retreat-96911.herokuapp.com request_id=487b0fd2-4baa-49e7-ace8-64ad035399d4 fwd="192.91.235.243" dyno=web.1 connect=1ms service=19ms status=200 bytes=155 protocol=https
+2020-10-27T21:01:57.922448+00:00 heroku[router]: at=info method=POST path="/data" host=shielded-retreat-96911.herokuapp.com request_id=ebc10b7d-9fda-44ef-9605-6b955bf41951 fwd="192.91.235.243" dyno=web.1 connect=0ms service=9ms status=200 bytes=155 protocol=https
+2020-10-27T21:01:58.132758+00:00 heroku[router]: at=info method=POST path="/data" host=shielded-retreat-96911.herokuapp.com request_id=8307ce46-832f-49dd-81ff-bdb198f7fc55 fwd="192.91.235.243" dyno=web.1 connect=2ms service=7ms status=200 bytes=155 protocol=https
+2020-10-27T21:01:58.129371+00:00 app[web.1]: AB_TESTING: A 1603832480422 1603832518106 mp2 yxvapzqg
+2020-10-27T21:01:58.131248+00:00 app[web.1]: 10.109.218.102 - - [27/Oct/2020 21:01:58] "[37mPOST /data HTTP/1.1[0m" 200 -
+2020-10-27T21:01:58.346220+00:00 app[web.1]: AB_TESTING: A 1603832480422 1603832518316 mp2 yxvapzqg
+2020-10-27T21:01:58.347061+00:00 app[web.1]: 10.109.218.102 - - [27/Oct/2020 21:01:58] "[37mPOST /data HTTP/1.1[0m" 200 -
+2020-10-27T21:01:58.348941+00:00 heroku[router]: at=info method=POST path="/data" host=shielded-retreat-96911.herokuapp.com request_id=c1991406-7db8-4a7a-ad32-28e3301a9e16 fwd="192.91.235.243" dyno=web.1 connect=3ms service=9ms status=200 bytes=155 protocol=https
+2020-10-27T21:01:59.749973+00:00 heroku[router]: at=info method=GET path="/checkout?version=A&mp1=1&mp2=13&mp3=2&mp4=1" host=shielded-retreat-96911.herokuapp.com request_id=ce1097ce-e3d7-4cbc-a3d1-5ec49f8f41f2 fwd="192.91.235.243" dyno=web.1 connect=1ms service=13ms status=200 bytes=5236 protocol=https
+2020-10-27T21:01:59.748110+00:00 app[web.1]: 10.109.218.102 - - [27/Oct/2020 21:01:59] "[37mGET /checkout?version=A&mp1=1&mp2=13&mp3=2&mp4=1 HTTP/1.1[0m" 200 -
+2020-10-27T21:01:59.972984+00:00 app[web.1]: AB_TESTING: C 1603832519845 0 0 yxvapzqg
+2020-10-27T21:01:59.977365+00:00 app[web.1]: 10.109.218.102 - - [27/Oct/2020 21:01:59] "[37mPOST /data HTTP/1.1[0m" 200 -
+2020-10-27T21:01:59.985953+00:00 heroku[router]: at=info method=POST path="/data" host=shielded-retreat-96911.herokuapp.com request_id=4d4a6633-1cd3-45c8-b394-0dd93f2669d4 fwd="192.91.235.243" dyno=web.1 connect=0ms service=24ms status=200 bytes=155 protocol=https
+2020-10-27T21:02:02.986852+00:00 heroku[router]: at=info method=GET path="/?version=A&mp1=1&mp2=13&mp3=2&mp4=1" host=shielded-retreat-96911.herokuapp.com request_id=e1ddd6b6-e1e2-429a-bfce-05348763c06a fwd="192.91.235.243" dyno=web.1 connect=2ms service=31ms status=200 bytes=8883 protocol=https
+2020-10-27T21:02:02.985649+00:00 app[web.1]: 10.109.218.102 - - [27/Oct/2020 21:02:02] "[37mGET /?version=A&mp1=1&mp2=13&mp3=2&mp4=1 HTTP/1.1[0m" 200 -
+2020-10-27T21:02:03.222872+00:00 app[web.1]: AB_TESTING: A 1603832523107 0 0 yxvapzqg
+2020-10-27T21:02:03.223726+00:00 app[web.1]: 10.109.218.102 - - [27/Oct/2020 21:02:03] "[37mPOST /data HTTP/1.1[0m" 200 -
+2020-10-27T21:02:03.228394+00:00 heroku[router]: at=info method=POST path="/data" host=shielded-retreat-96911.herokuapp.com request_id=b761d8bc-de23-4152-8ad4-deadde72140c fwd="192.91.235.243" dyno=web.1 connect=0ms service=13ms status=200 bytes=155 protocol=https
